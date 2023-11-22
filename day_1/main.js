@@ -28,9 +28,9 @@ console.log(numb);
 
 // 3 you can't re-declare the same variale, not like this:
 
-let numbr = 1;
-let numbr = 2;
-console.log(numbr);
+// let numbr = 1;
+// let numbr = 2;
+// console.log(numbr);
 
 // but like this: (assign a value to a variable on line 39)
 
@@ -57,12 +57,12 @@ const temp = 5;
 
 // Try it out. Here, we attempt to assign a new value to a variable that was created with const.
 
-const tempt = 1;
-tempt = 2; // output: TypeError: Assignment to constant variable.
+// const tempt = 1;
+// tempt = 2;        // output: TypeError: Assignment to constant variable.
 
 // You also cannot declare a const-variable without assigning a value to it directly. See what happens if you try anyway:
 
-const temprt;  // output: SyntaxError: Missing initializer in const declaration
+// const temprt;  // output: SyntaxError: Missing initializer in const declaration
 
 // But, why should you use const instead of let?
 // It is considered good practice to use const for variables whoose value will never change.
@@ -75,8 +75,8 @@ const pi = 3.14159; // For example, if you want to store the number pi you would
 
 // you can't do this:
 
-console.log(num);
-const num = 5;
+// console.log(num);
+// const num = 5;
 
 // but like this:
 
