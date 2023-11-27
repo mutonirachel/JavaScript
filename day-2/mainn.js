@@ -58,10 +58,39 @@ console.log(Boolean(undefined));
 console.log(Boolean(''));
 console.log(Boolean(NAN));
 
+// Right, all numbers except 0 are truthy.
 
-let test;
+let price;
+console.log(Boolean(price));  // false undefined
+
+// challenge
+
+let num = 5;
+num = 0;  // filling this
+const bool = Boolean(bool);
+console.log(bool);
 
 
+// TEST On Boolean
 
+let isTruee = true;
+console.log(isTruee);  // 1. true
+
+let pricee = 10;
+console.log(Boolean(pricee)); // 2. true
+
+const namee = "james";
+console.log(Boolean(namee));  // 3. true
+
+console.log(Boolean(1)); // 4. true
+console.log(Boolean(0)); // false
+console.log(Boolean(-1)); // true
+
+
+// 5. Every single value in JavaScript can be transformed to a boolean value : true 
+
+// 6. true or false 
+const numb = 10;
+// num is falsy :  false
 
 
