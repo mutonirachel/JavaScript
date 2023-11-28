@@ -73,8 +73,70 @@ console.log(priceFive >= priceSeven);   // true
 console.log(priceFive <= priceSix);    //  true
 console.log(priceFive <= priceSeven);   // true
 
+// STRICT EQUALITY AND STRICT INEQUALITY
+
+// STRICT EQUALITY : === 
+// Checks whether its two operands are equal, returning a Boolean result.
+
+console.log(1 === 1); // Expected output : true
+console.log('hello' === 'hello'); // Expected output: true
+console.log('1' === 1); // Expected output: false
+console.log(0 === false); // Expected output: false
+
+// Comparing objects 
+
+const object1 = {
+    key: "value",
+};
+
+const object2 = {
+    key: "value",
+};
+
+console.log(object1 === object2); // false
+console.log(object1 === object1); // true
 
 
+// STRICT INEQUALITY : !==
+// an inequality where the inequality symbol is either (greater than) or. (less than). That is, a strict inequality is an inequality which has no equality conditions.
+
+console.log(1 !== 1); // false
+console.log('hello' !== 'hello'); // false
+console.log('1' !== 1); // true
+console.log(0 !== false); // true
+
+
+// LOGICAL OPERATORS : AND(&&), OR(||), and NOT(!)
+
+
+// AND(&&)
+
+6 > 4 && 2 <= 14 // true
+// 6 > 4 and 2 <= 14 : true
+
+
+// TRUTH TABLE FOR AND (&&) : It is only true when all operands/ expressions are equal/ true
+// x	    y	    x and y
+// false	false	false
+// false	true	false
+// true	    false	false
+// true	    true	true
+
+
+// TRUTH TABLE FOR OR (||) : It is true when al least one operand/ expression is true
+// x	    y	    x or y
+// false	false	false
+// false	true	true
+// true	    false	true
+// true	    true	true
+
+
+// TRUTH TABLE FOR NOT (!) : It does reverse/ opposite
+// x	    not x
+// false	true
+// true	    false
+
+// EXAMPLES
 
 
 
