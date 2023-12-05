@@ -161,25 +161,25 @@ console.log(person.SurName);
 
 // QUESTION 3
 
-let 
 
 
+console.log(false || 199);
+
+console.log(199 > 300);
+
+console.log(false || 400);
+
+console.log(400 > 500);
 
 
+console.log(22 >= 21 && false);
+
+const INSURANCE_COST = 2.99;
+let shippingCost = 9.99;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+let price = 100;
+console.log("price =", price);
 
 
 
