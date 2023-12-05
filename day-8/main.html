@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JavaScript</title>
+</head>
+<body>
+    <input type="text" name="" id="myId">
+
+    <button onclick="console.log(document.getElementById('myId').value)">Get Text</button>
+
+<script>
+    let isUserReady = confirm("Are you ready?");
+ console.log(isUserReady);
+ if (isUserReady) {
+    alert("User ready!");
+ }
+
+ 
+ let unitPrice = 10;
+ let pieces = prompt("How many pieces do you order?", 0);
+ if (pieces > 0) {
+    console.log(total);
+ }
+ console.log(total); // -> Uncaught ReferenceError: total is not defined
+</script>
+</body>
+</html>

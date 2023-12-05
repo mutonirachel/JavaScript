@@ -128,8 +128,6 @@ let users =[
      console.log(users[2].name); // -> Irene
      console.log(users[1].age); // -> 21
 
-
-
 // Assement 
 
 // Question One
