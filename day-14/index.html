@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch from a file</title>
+    
+</head>
+<body style="display: grid;">
+    <!-- Fetch from a file -->
+    <h1>List of post titles</h1>
+    <ul>
+    </ul>
+
+    <script>
+    const listEl = document.querySelector('ul');
+    fetch('./data1.json')
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(post => {
+            listEl.insertAdjacentHTML('beforeend', `<li>${post.fruit}</li>`)
+        });
+    });
+    </script>
+</body>
+</html>
